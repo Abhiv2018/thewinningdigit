@@ -1,12 +1,10 @@
-* {
-  box-sizing: border-box;
-}
 
 /* Create three columns of equal width */
 .columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
+  
+  width: 100%;
+	height: inherit;
+  padding: 50px;
 }
 
 /* Style the list */
@@ -55,10 +53,3 @@
   font-size: 18px;
 }
 
-/* Change the width of the three columns to 100% 
-(to stack horizontally on small screens) */
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
-}
