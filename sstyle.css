@@ -1,18 +1,13 @@
 
 /* Create three columns of equal width */
-.columns {
-  
-  width: 100%;
-	height: inherit;
-  padding: 50px;
-}
+
 
 /* Style the list */
 .price {
   list-style-type: none;
   border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
+  
+  padding: 50;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -26,7 +21,7 @@
 .price .header {
   background-color: #111;
   color: white;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 /* List items */
@@ -39,7 +34,7 @@
 /* Grey list item */
 .price .grey {
   background-color: #eee;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* The "Sign Up" button */
@@ -50,6 +45,6 @@
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
 }
 
