@@ -1,13 +1,20 @@
+* {
+  box-sizing: border-box;
+}
 
 /* Create three columns of equal width */
-
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+}
 
 /* Style the list */
 .price {
   list-style-type: none;
   border: 1px solid #eee;
-  
-  padding: 50;
+  margin: 0;
+  padding: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -21,7 +28,7 @@
 .price .header {
   background-color: #111;
   color: white;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 /* List items */
@@ -34,7 +41,7 @@
 /* Grey list item */
 .price .grey {
   background-color: #eee;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* The "Sign Up" button */
@@ -48,3 +55,10 @@
   font-size: 18px;
 }
 
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
