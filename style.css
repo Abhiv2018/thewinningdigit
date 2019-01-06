@@ -51,10 +51,11 @@ h4 {
 }
 
 p {
-    color: #999;
+    color: white;
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
+	font-family: 'Unica One', cursive;
 }
 
 hr {
@@ -219,6 +220,12 @@ a:hover, a:active, a:focus {
 
 #form {
   background-color: orange;
+padding-bottom: 80px;
+	margin-top: 10px;
+}
+
+#detail {
+  background-color: dimgrey;
 padding-bottom: 80px;
 	margin-top: 10px;
 }
